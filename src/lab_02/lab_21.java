@@ -12,7 +12,7 @@ public class lab_21 {
         float BMI = w/(h*2);
         System.out.println("Your BMI is " + BMI);
         String text = "You are";
-        if (BMI <= 18.5) {
+        if (BMI < 18.5) {
             System.out.print(text + " Underweight");}
         else if (BMI <= 24.9){
             System.out.print(text + " normal weight");}
