@@ -11,14 +11,16 @@ public class lab_21 {
         float w = scanner.nextFloat();
         float BMI = w/(h*2);
         System.out.println("Your BMI is " + BMI);
+        float minExpectedWeight = 18.5F*(h*2);
+        float maxExpectedWeight = 24.9F*(h*2);
         String text = "You are";
         if (BMI < 18.5) {
-            System.out.print(text + " Underweight");}
+            System.out.print(text + " Underweight" + " and need to increase weight (kg) in range " + minExpectedWeight + " and " + maxExpectedWeight);}
         else if (BMI <= 24.9){
             System.out.print(text + " normal weight");}
         else if (BMI <= 30){
-            System.out.print(text + " overweight");}
+            System.out.print(text + " overweight" + " and need to decrease weight (kg) in range " + minExpectedWeight + " and " + maxExpectedWeight);}
         else{
-            System.out.print(text + " obesity");}
+            System.out.print(text + " obesity" + " and need to decrease kg weight (kg) range " + minExpectedWeight + " and " + maxExpectedWeight);}
     }
 }
