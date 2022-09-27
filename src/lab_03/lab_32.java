@@ -23,8 +23,7 @@ public class lab_32 {
                 min = array[i];
             }
         }
-        System.out.print(max + "is the maximum number");
-        System.out.println();
-        System.out.print(min + "is the minimum number");
+        System.out.println(max + " is the maximum number");
+        System.out.println(min + " is the minimum number");
     }
     }

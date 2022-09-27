@@ -15,4 +15,5 @@ public class SwitchCase {
                 case 3:
                  System.out.println("Giai 3"); break;
             default:
-                System.out.println(" Vui long nhap lai"); }}}
+                System.out.println(" Vui long nhap lai");
+        break;}}}
