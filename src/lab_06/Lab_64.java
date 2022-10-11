@@ -1,6 +1,6 @@
 package lab_06;
 
-public class lab_64 {
+public class Lab_64 {
     public static void main(String[] args) {
         String url = "https://google.com";
 

@@ -1,10 +1,8 @@
 package lab_02;
 
-import com.sun.javafx.image.BytePixelSetter;
-
 import java.util.Scanner;
 
-public class lab_22 {
+public class Lab_22 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Please input the number:");

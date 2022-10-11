@@ -2,7 +2,7 @@ package lab_03;
 
 import java.util.Scanner;
 
-public class lab_33 {
+public class Lab_33 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print(" Please enter the number of elements in an array : ");

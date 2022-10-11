@@ -2,7 +2,7 @@ package lab_05;
 
 import java.util.*;
 
-public class lab_51 {
+public class Lab_51 {
     public static void main(String[] args) {
         List<Integer> myArrayList = new ArrayList<>();
         boolean isContinuing = true;
