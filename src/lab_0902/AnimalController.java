@@ -13,7 +13,7 @@ public class AnimalController {
                 theWinner = animal.getName();
             }
         }
-        System.out.println("The winner is: " + theWinner + " with the speed: " + maxSpeed);
+        System.out.println("The winner is: " + theWinner + " with the speed: " + maxSpeed + "km/h");
         return theWinner;
     }
 }

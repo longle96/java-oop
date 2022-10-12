@@ -14,6 +14,6 @@ public class EmployeeTest {
         List<Employee> employeeList = Arrays.asList(EmployeeA, EmployeeB, EmployeeC, EmployeeD, EmployeeE);
 
         int totalSalary = new EmployeeController().calculateTotalSalary(employeeList);
-        System.out.println("Total " + totalSalary);
+        System.out.println("Total the salary is: " + totalSalary + " USD");
     }
 }
