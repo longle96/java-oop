@@ -62,7 +62,7 @@ public class Animal {
         }
         return raceableAnimal;
     }
-        public static List<Animal> GetWinner(List<Animal> animalList) {
+        public static String GetWinner(List<Animal> animalList) {
             String theWinner = null;
             int maxSpeed = 0;
             for (Animal animal : animalList) {
@@ -72,6 +72,6 @@ public class Animal {
                 }
             }
             System.out.println("The winner is: " + theWinner + " with the speed: " + maxSpeed + "km/h");
-            return animalList;
+            return theWinner;
         }
 }
